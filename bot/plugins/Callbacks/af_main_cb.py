@@ -92,7 +92,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"🔰 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"⚜️ Page ⚜️ {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 🔰", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -179,14 +179,14 @@ async def cb_settings(bot, update: CallbackQuery):
     bot_status = await bot.get_me()
     bot_fname= bot_status.first_name
     
-    text =f"<i>{bot_fname}'s</i> Auto Filter Settings Pannel.....\n"
-    text+=f"\n<i>You Can Use This Menu To Change Connectivity And Know Status Of Your Every Connected Channel, Change Filter Types, Configure Filter Results And To Know Status Of Your Group...</i>"
+    text =f"<i>{bot_fname}'s</i> Sidhuz Settings Pannel.....\n"
+    text+=f"\n<i>You don't have the right to use me because this is made by Sidhu...</i>"
     
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "Channels", callback_data=f"channel_list({chat_id})"
+                    "Channel", callback_data=f"channel_list({chat_id})"
                 ), 
             
             InlineKeyboardButton
