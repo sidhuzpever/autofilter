@@ -4,18 +4,17 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+    START_TEXT = """<b>Hello {}!!</b>
+<i>⏩ 𝐅𝐄𝐀𝐑 ആവണ്ട മോനെ  𝐎𝐍 ആണ്💥🔥 ⏩എന്തെങ്കിലും പ്രശ്നം ഉണ്ടെങ്കിൽ എന്റെ തലവൻ 𝐒𝐈𝐃𝐇𝐔ന് ഒരു 𝐌𝐒𝐆 ഇട്ടാൽ മതി⏩ 𝐂𝐀𝐋𝐋  ചെയ്യാൻ നിൽക്കേണ്ട*😎🔥....😉
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
+You can't add  Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
 
-For More Details Click Help Button Below..
-@CrazyBotsz
+You can join a beautiful group which all movies are available...then join @movies656
+@movies656
 </i>"""    
     
     HELP_TEXT = """
-<b><i><u>How To Use Me!?</u></i></b>
-
+<b><i><u>How To Use Me!?</u>
 <i>
 -> Add Me To Any Group And Make Me Admin
 -> Add Me To Your Desired Channel
@@ -48,7 +47,7 @@ For More Details Click Help Button Below..
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/AlbertEinstein_TG">AlbertEinstein_TG</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/Sidhuz_656a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
