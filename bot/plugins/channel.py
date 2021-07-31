@@ -47,14 +47,14 @@ async def connect(bot: Bot, update: Message):
             target = int(target_chat[1])
                 
     except Exception:
-        await update.reply_text("Invalid Input...\nYou Should Specify Valid <code>chat_id(-100xxxxxxxxxx)</code> or <code>@username</code>")
+        await update.reply_text("Invalid Input...\nmy creator is sidhu then use valid code <code>chat_id(-100xxxxxxxxxx)</code> or <code>@username</code>")
         return
     
     try:
         join_link = await bot.export_chat_invite_link(target)
     except Exception as e:
         print(e)
-        await update.reply_text(f"Make Sure Im Admin At <code>{target}</code> And Have Permission For '<i>Inviting Users via Link</i>' And Try Again.....!!!")
+        await update.reply_text(f"Make Sure Im Admin At <code>{target}</code> And Have Permission For '<i>Inviting Users via Link</i>' And support me .....!!!")
         return
     
     userbot_info = await bot.USER.get_me()
@@ -87,7 +87,7 @@ async def connect(bot: Bot, update: Message):
         await update.reply_text("Channel Aldready In Db...!!!")
         return
     
-    wait_msg = await update.reply_text("Please Wait Till I Add All Your Files From Channel To Db\n\n<i>This May Take 2 or 3 Hrs Depending On Your No. Of Files In Channel.....</i>\n\nUntil Then Please Dont Sent Any Other Command Or This Operation May Be Intrupted....")
+    wait_msg = await update.reply_text("Please Wait Till Sidhu adding the files in db\n\n<i>This May Take 2 or 3 Hrs Depending On Our No. Of Movies In Channel.....</i>\n\nUntil Then Please Join Our channel  @movies656 🤧")
     
     try:
         type_list = ["video", "audio", "document"]
@@ -190,7 +190,7 @@ async def connect(bot: Bot, update: Message):
     await db.add_chat(chat_id, channel_id, channel_name)
     await recacher(chat_id, True, True, bot, update)
     
-    await wait_msg.edit_text(f"Channel Was Sucessfully Added With <code>{len(data)}</code> Files..")
+    await wait_msg.edit_text(f"Our channel @movies656 Was Sucessfully Added With <code>{len(data)}</code> Files..")
 
 
 @Client.on_message(filters.command(["del"]) & filters.group, group=1)
